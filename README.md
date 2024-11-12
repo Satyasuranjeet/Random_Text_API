@@ -1,4 +1,4 @@
-```markdown
+
 # Random Text Generation API
 
 This is a simple Python API built using Flask that generates random text, including words, sentences, and paragraphs. It also includes a basic health-check route to confirm the system is working.
