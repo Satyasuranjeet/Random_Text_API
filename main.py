@@ -5,11 +5,21 @@ app = Flask(__name__)
 
 # Sample word list for random generation
 WORDS = [
-    "lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipiscing", "elit",
-    "sed", "do", "eiusmod", "tempor", "incididunt", "ut", "labore", "et", "dolore",
-    "magna", "aliqua", "enim", "ad", "minim", "veniam", "quis", "nostrud", "exercitation",
-    "ullamco", "laboris", "nisi", "ut", "aliquip", "ex", "ea", "commodo", "consequat"
+    "technology", "innovation", "science", "future", "discovery", "knowledge", "research",
+    "data", "progress", "society", "education", "development", "impact", "design",
+    "engineering", "health", "environment", "economy", "growth", "sustainability",
+    "global", "network", "solution", "community", "collaboration", "change", "potential",
+    "digital", "creative", "skills", "vision", "ideas", "communication", "security",
+    "inspiration", "leadership", "goals", "achievement", "they", "we", "our", "us",
+    "you", "your", "he", "she", "it", "I", "am", "is", "are", "was", "were", "be",
+    "being", "have", "has", "had", "do", "does", "did", "make", "makes", "made", 
+    "see", "sees", "saw", "know", "knows", "knew", "think", "thinks", "thought", 
+    "believe", "believes", "believed", "create", "creates", "created", "lead", 
+    "leads", "led", "work", "works", "worked", "develop", "develops", "developed", 
+    "achieve", "achieves", "achieved", "build", "builds", "built", "explore", 
+    "explores", "explored", "understand", "understands", "understood"
 ]
+
 
 def generate_text(length, text_type="word"):
     if text_type == "word":
